@@ -1,0 +1,58 @@
+.backgroundImg {
+    background-image: url('Images/background.png');
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-position: center;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+@font-face {
+    font-family: 'PressStart2P';
+    src: url('Font/PressStart2P-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'PressStart2P';
+    top: 0;
+    left: 0;
+}
+
+header h1 {
+    color: #DEBA6F;
+    font-size: 40px;
+    margin-top: 100px;
+    text-align: center;
+    align-self: center;
+}
+
+.project {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 25px;
+}
+
+.project a {
+    color: #E5F77D;
+    font-size: 20px;
+    z-index: 1;
+    margin-left: 5px;
+}
+
+.project p {
+    color: #f4f7be;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.project div img {
+    max-width: 20px;
+    max-height: 20px;
+    float: inline-start;
+}
+
